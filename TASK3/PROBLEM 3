@@ -1,0 +1,10 @@
+n=int(input("Till what parameter do you want to find the sum of multiples of 3 or 5 : ").strip())
+total_sum=0
+while n>=10**9:
+    print("Enter a number less than 10^9")
+    n=int(input("Till what parameter do you want to find the sum of multiples of 3 or 5 : ").strip())
+for num in range(1,n):
+    if num%3==0 or num%5==0:
+        total_sum+=num 
+print(total_sum)           
+ 
