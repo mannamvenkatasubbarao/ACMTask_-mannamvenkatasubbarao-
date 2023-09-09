@@ -5,3 +5,4 @@ if -100 <= k <= 100:
     print(sum_of_input)
 else:
     print("k is out of the valid range")
+#okkk
